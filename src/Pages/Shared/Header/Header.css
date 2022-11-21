@@ -1,0 +1,33 @@
+.navbarWrap {
+  background: red !important;
+}
+.navbar-nav a {
+  color: rgb(236, 234, 234);
+  padding: 16px 16px !important;
+  font-size: 16px !important;
+  font-size: 20px !important;
+}
+.navbar-nav a:hover {
+  color: #ffffff;
+  transition: all 0.5s;
+}
+.navbar-nav a:focus {
+  color: #ffffff;
+}
+.navbar-toggler-icon {
+  background-image: url(../../../images/navbarIcon.svg);
+}
+.navbar-toggler {
+  border: 0px;
+  box-shadow: none !important;
+  background-color: #ea3d84;
+}
+/* .navbar-toggler:focus {
+  box-shadow: 0px;
+  outline: none !important;
+} */
+.brandLogo {
+  height: 55px;
+  width: auto;
+  margin: 10px 0px;
+}
