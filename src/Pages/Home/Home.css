@@ -1,0 +1,16 @@
+.HeaderBannerWrap {
+  background-image: url(../../images/homeBanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.headerBannerBg {
+  background: rgb(36, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(36, 0, 0, 0) 0%,
+    rgba(233, 19, 123, 0.822) 100%
+  );
+  /* opacity: 0.7; */
+}

@@ -3,11 +3,11 @@
 } */
 .bannerText {
   display: flex;
-  height: 100vh;
+  height: 110vh;
   justify-content: center;
   align-items: center;
   color: white;
-  background-color: black;
+  background-color: transparent;
 }
 .bannerText h3 {
   font-size: 24px;
@@ -16,4 +16,23 @@
 .bannerText h1 {
   font-size: 100px;
   text-transform: capitalize;
+}
+.bannerText button {
+  background-color: #ffaf00;
+}
+@media (max-width: 769px) {
+  .bannerText h1 {
+    font-size: 60px;
+  }
+  .bannerText {
+    height: 90vh;
+  }
+}
+@media (max-width: 576px) {
+  .bannerText h1 {
+    font-size: 40px;
+  }
+  .bannerText {
+    height: 90vh;
+  }
 }
