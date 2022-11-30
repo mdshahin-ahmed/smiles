@@ -1,0 +1,36 @@
+.TechniquesHeaderWrap h4 {
+  font-size: 26px;
+  margin-top: 35px;
+}
+.TechniquesHeaderWrap h1 {
+  /* margin-bottom: 30px; */
+  font-size: 70px;
+}
+
+@media (max-width: 769px) {
+  .TechniquesHeaderWrap h1 {
+    font-size: 45px;
+  }
+}
+@media (max-width: 576px) {
+  .TechniquesHeaderWrap h1 {
+    font-size: 35px;
+  }
+}
+
+.divider {
+  opacity: 0.3;
+  margin-bottom: 50px;
+}
+.techniquesWrap h5 {
+  font-size: 40px;
+  margin-top: 10px;
+}
+.techniquesWrap p {
+  font-size: 18px;
+  font-weight: bold;
+}
+.techniquesWrap img:hover {
+  margin-top: -10px;
+  transition: all 1s;
+}

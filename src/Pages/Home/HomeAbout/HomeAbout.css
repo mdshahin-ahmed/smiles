@@ -1,0 +1,33 @@
+.homeAboutBgWrap {
+  background-image: url("../../../images/homeAboutBackground.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.homeAboutWrap {
+  background-color: rgba(245, 3, 120, 0.651);
+}
+.homeAboutText {
+  color: white;
+  text-align: start;
+}
+.homeAboutText h1 {
+  font-size: 70px;
+}
+.homeAboutText .p1 {
+  margin: 30px 0px 50px 0px;
+}
+.homeAboutText p {
+  font-size: 20px;
+}
+.homeAboutText button {
+  background: #ffaf00;
+  margin: 20px 0px;
+}
+
+@media (max-width: 767px) {
+  .aboutImage {
+    margin-top: -180px;
+  }
+}
